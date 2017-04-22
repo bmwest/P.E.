@@ -20,8 +20,6 @@ x = 1
 y = 100
 sosq = sum_of_squares(x, y)
 sosu = square_of_sum(x, y)
+sum_square_difference = sosu - sosq
 
-puts "> The sum of the squares of each natural number between #{x} and #{y} is: #{sosq}"
-puts "> The square of the sum of each natural number between #{x} and #{y} is: #{sosu}"
-puts "> The difference between the sum of the squares and the " +
-     "square of the sum is: \n  #{sosu - sosq}"
+puts "#{sosu} - #{sosq} = #{sum_square_difference}"
